@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="address=no" name="format-detection"/>
+
+    <title>fis3 base</title>
+    <link rel="stylesheet" href="modules/css/common.scss">
+    <link rel="stylesheet" href="modules/css/index.scss">
+    <!--STYLE_PLACEHOLDER-->
+</head>
+<body>
+    <div class="container">
+        <link rel="import" href="modules/html/header/header.html?__inline">
+        <div class="body">
+            <h2>测试一下2</h2>
+            <ul>
+                <li>
+                    <a href="pc.html">PC端脚手架</a>
+                </li>
+                <li>
+                    <a href="wap.html">移动端脚手架</a>
+                </li>
+                <li>
+                    <a href="test.html">这里是测试页面</a>
+                </li>
+            </ul>
+        </div>
+        <link rel="import" href="modules/html/footer/footer.html?__inline">
+    </div>
+    <script>
+    var titles = [
+      "今天又双叒叕抢到红包了！",
+      "这么火炎焱燚的红包你抢了么！",
+      "帮我抢个红包，也有你的份！",
+      "今天的冰棒钱又妥了，妙啊！",
+      "快进来和我一起拿红包！",
+      "谁帮我拆了就是我爸爸！",
+      "不解释，先把红包拆了！"
+    ];
+    var title_mun = Math.floor((Math.random()*titles.length));
+    document.title = titles[title_mun];
+    </script>
+    <!--SCRIPT_PLACEHOLDER-->
+</body>
+</html>

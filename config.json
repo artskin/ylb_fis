@@ -1,0 +1,37 @@
+{
+    "_defaults": {
+        "title": "hello, art-template111",
+        "stylesheets": [
+            "main.css"
+        ],
+        "scripts": [
+            "main.js"
+        ]
+    },
+    "module/_defaults": {
+        "title": "home module"
+    },
+    "module/home.tpl": {
+        "stylesheets": [
+            "main.css",
+            "home.css"
+        ],
+        "scripts": [
+            "main.js",
+            "home.js"
+        ]
+    },
+    "index.tpl": {
+        "stylesheets": [
+            "main.css",
+            "index.css"
+        ],
+        "scripts": [
+            "main.js", 
+            "index.js"
+        ]
+    },
+    "test.tpl": {
+        "release": false
+    }
+}
